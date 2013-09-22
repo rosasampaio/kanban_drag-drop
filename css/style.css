@@ -1,0 +1,56 @@
+body{
+    padding: 10px;
+}
+html{
+      padding: 10px;
+      margin: 30px;
+    border: #f3f3f9 solid; 
+    border-radius: 10px;
+}
+#sortable1, #sortable2,#sortable3,#sortable4 {
+    width:22%;
+    min-height:400px;
+    border:1px solid #ccc; 
+    background:#f3f3f3;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 15px;
+    padding: 0;
+    float: left;
+    margin-right: 10px;
+}
+  #sortable1 h3, #sortable2 h3,#sortable3 h3,#sortable4 h3{
+      font-family:  cursive;
+      text-align: center;
+      color: blue;
+  }
+  
+ #sortable1 li, #sortable2 li, #sortable3 li, #sortable4 li{
+     display:block;
+     background:#e3e3e3;
+     cursor:move;
+     margin: 0 5px 5px 5px;
+     padding: 10px;
+     font-size: 1.2em;
+     border-radius: 5px;
+ }
+ .success{
+     display:none; 
+     color: #ccc; 
+     text-align: center;
+     font-size: x-large;
+     padding: 0px;
+     background-color: blue;
+     height: 30px;
+ }
+
+ .kanban{
+     color: #fff;
+     background-color:  darkorange;
+     text-align: center;
+     font-size: x-large;
+     font-family:  cursive;
+     padding: 0px;
+     margin-bottom: 5px;
+
+ }
