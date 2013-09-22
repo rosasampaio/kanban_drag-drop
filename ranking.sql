@@ -17,11 +17,12 @@ CREATE TABLE IF NOT EXISTS `ranking` (
 -- Dumping data for table `ranking`
 --
 
-INSERT INTO `ranking` (`ranking_id`, `entry_id`, `ranking_value`, `ranking_column`, `judge_id`, `contest_id`, `timestamp`, `ip_address`) VALUES
-(1, 2, 1, 0, 1, 1, '2013-02-09 01:54:41', '1.2.3.4','Atividade 1'),
-(2, 3, 2, 0, 1, 1, '2013-02-09 01:54:43', '1.2.3.4','Atividade 2'),
-(3, 4, 3, 0, 1, 1, '2013-02-09 01:54:43', '1.2.3.4','Atividade 3'),
-(4, 5, 4, 0, 1, 1, '2013-02-09 01:54:44', '1.2.3.4','Atividade 4'),
-(5, 1, 0, 0, 1, 1, '2013-02-09 01:54:39', '1.2.3.4','Atividade 5');
+INSERT INTO `ranking` (`ranking_id`, `entry_id`, `ranking_value`, `ranking_column`, `judge_id`, `contest_id`, `timestamp`, `ip_address`, `name`) VALUES
+(1, 2, 1, 3, 1, 1, '2013-09-22 22:47:25', '1.2.3.4', 'Definir Linguagem Desenvolvimento'),
+(2, 3, 0, 3, 1, 1, '2013-09-22 22:47:12', '1.2.3.4', 'Análise de Requisitos'),
+(3, 4, 0, 2, 1, 1, '2013-09-22 22:47:25', '1.2.3.4', 'Definição Regras de negócios'),
+(4, 5, 0, 1, 1, 1, '2013-09-22 22:47:29', '1.2.3.4', 'Modelagem DB'),
+(5, 1, 0, 0, 1, 1, '2013-09-22 22:47:29', '1.2.3.4', 'Definição Permissões users'),
+(6, 6, 1, 0, 1, 1, '2013-09-22 22:47:29', '1.2.3.4', 'projeto interface ');
 
 
